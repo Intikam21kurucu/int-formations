@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 
-# YouTube Data API için API anahtarınızı buraya girin.
-YOUTUBE_API_KEY = 'https://www.googleapis.com/youtube/v3'
+# Kullanıcıdan YouTube Data API için API anahtarını alın.
+YOUTUBE_API_KEY = input("Lütfen YouTube Data API anahtarınızı girin: ")
 
 def get_my_youtube_channel_info():
     youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
@@ -10,7 +10,7 @@ def get_my_youtube_channel_info():
         mine=True
     )
     response = request.execute()
-    
+
     if response['items']:
         channel_info = response['items'][0]
         return {
