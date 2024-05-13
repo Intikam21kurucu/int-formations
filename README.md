@@ -54,6 +54,9 @@ pip install os
 pip install time
 pip install pyfiglet
 pip install requests
-````or :
+````
+
+
+or :
 `chmod +x install.sh`
 `./install.sh`
