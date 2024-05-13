@@ -78,6 +78,8 @@ or:
 sudo ./installkali.sh
 ````
 
-Photos
+tam İndirme : 
+````
+
 
 
