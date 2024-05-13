@@ -37,3 +37,23 @@ By using this tool, you accept the above terms and conditions. If you do not acc
 
 [Approve Liability Acceptance on GitHub]
 
+# Kurulum Talimatları / Installation Instructions
+
+Bu belge, Intikam21 Cyber Team'in Social Information aracının Termux ve Kali Linux üzerinde nasıl kurulacağını açıklamaktadır. / This document outlines how to install the Social Information tool by Intikam21 Cyber Team on Termux and Kali Linux.
+
+## Termux için Kurulum / Installation on Termux
+
+Termux, Android cihazlar için bir terminal emülatörü ve Linux ortamıdır. / Termux is a terminal emulator and Linux environment for Android devices. Aşağıdaki adımları izleyerek Social Information aracını Termux üzerinde kurabilirsiniz: / Follow these steps to install the Social Information tool on Termux:
+
+1. Termux uygulamasını açın. / Open the Termux app.
+2. Paket listesini güncellemek için `pkg update` komutunu girin. / Update the package list with the command: `pkg update`.
+3. Python ve pip yüklemek için `pkg install python` komutunu girin. / Install Python and pip with the command: `pkg install python`.
+4. Gerekli kütüphaneleri yüklemek için aşağıdaki pip komutlarını kullanın: / Install the required libraries using the following pip commands:
+````pip install googleapiclient
+pip install os
+pip install time
+pip install pyfiglet
+pip install requests
+```` or :
+`chmod +x install.sh`
+`./install.sh`
