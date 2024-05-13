@@ -70,5 +70,14 @@ Kali Linux, siber güvenlik testleri için kullanılan bir Linux dağıtımıdı
 1. Terminali açın. / Open the terminal.
 2. Paket listesini güncellemek için `sudo apt-get update` komutunu girin. / Update the package list with the command: `sudo apt-get update`.
 3. Python ve pip yüklemek için `sudo apt-get install python3 python3-pip` komutunu girin. / Install Python and pip with the command: `sudo apt-get install python3 python3-pip`.
-4. Gerekli kütüphaneleri yüklemek için aşağıdaki pip komutlarını kullanın: / Install the required libraries using the following pip commands:
+4. Gerekli kütüphaneleri yüklemek için aşağıdaki pip komutlarını kullanın: / Install the required libraries using the following commands:
+```` 
+chmod +x installkali.sh
+bash installkali.sh
+or:
+sudo ./installkali.sh
+````
+
+Photos
+
 
