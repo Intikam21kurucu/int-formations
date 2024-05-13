@@ -80,6 +80,30 @@ sudo ./installkali.sh
 
 tam İndirme : 
 ````
+apt update -y && apt upgrade -y
+pkg install git
+pkg install python
+pkg install python3
+git clone https://github.com/Intikam21kurucu/int-formations
+````
+
+# Termux:
+````
+chmod +x install.sh
+./install.sh
+````
+
+# Kali:
+````chmod +x installkali.sh
+bash installkali.sh
+or:
+sudo ./installkali.sh
+````
+
+
+
+
+
 
 
 
