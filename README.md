@@ -60,3 +60,15 @@ pip install requests
 or :
 `chmod +x install.sh`
 `./install.sh`
+5. Kurulum tamamlandıktan sonra, aracı kullanmaya başlayabilirsiniz. / After the installation is complete, you can start using the tool.
+
+
+## Kali Linux için Kurulum / Installation on Kali Linux
+
+Kali Linux, siber güvenlik testleri için kullanılan bir Linux dağıtımıdır. / Kali Linux is a Linux distribution used for cybersecurity testing. Aşağıdaki adımları izleyerek Social Information aracını Kali Linux üzerinde kurabilirsiniz: / Follow these steps to install the Social Information tool on Kali Linux:
+
+1. Terminali açın. / Open the terminal.
+2. Paket listesini güncellemek için `sudo apt-get update` komutunu girin. / Update the package list with the command: `sudo apt-get update`.
+3. Python ve pip yüklemek için `sudo apt-get install python3 python3-pip` komutunu girin. / Install Python and pip with the command: `sudo apt-get install python3 python3-pip`.
+4. Gerekli kütüphaneleri yüklemek için aşağıdaki pip komutlarını kullanın: / Install the required libraries using the following pip commands:
+
